@@ -73,17 +73,17 @@ t_D5_JH     =   P_D5_inv_pos*(ZTHDJH+RTHDJH);               % Hûtõtönkhöz képest
 % % Egész modul vesztesége
  P_SUM_modul =   2*(P_T1_inv_pos+P_T2_inv_pos+P_D5_inv_pos)
 % 
-% Egyenirányító üzemi számítások-----------------------------------------
-disp('EGYENIRÁNYÍTÓ üzem -----------------------------------------------');
-I_D4_AV         =   I_T1_AV;
-I_D4_RMS        =   I_T1_RMS;
-P_D4            =   U0_DIODE*I_D4_AV+I_D4_RMS^2*R_DIODE+E_SW_DIODE*f_sw*I_D4_AV/50*Udc/2/300
-t_D4_JH         =   P_D4*(ZTHDJH+RTHDJH);
-I_T2_AV_rect    =   I_D5_AV;
-I_T2_RMS_rect   =   I_D5_RMS;
-P_T2_rect       =   U0_IGBT*I_T2_AV_rect+I_T2_RMS_rect^2*R_dson+E_SW_FET*f_sw*I_in_pk/pi/50*Udc/2/300
-t_T2_JH_rect    =   P_T2_rect*(ZTHJH+RTHJH);
-
+% % % Egyenirányító üzemi számítások-----------------------------------------
+% % disp('EGYENIRÁNYÍTÓ üzem -----------------------------------------------');
+% % I_D4_AV         =   I_T1_AV;
+% % I_D4_RMS        =   I_T1_RMS;
+% % P_D4            =   U0_DIODE*I_D4_AV+I_D4_RMS^2*R_DIODE+E_SW_DIODE*f_sw*I_D4_AV/50*Udc/2/300
+% % t_D4_JH         =   P_D4*(ZTHDJH+RTHDJH);
+% % I_T2_AV_rect    =   I_D5_AV;
+% % I_T2_RMS_rect   =   I_D5_RMS;
+% % P_T2_rect       =   U0_IGBT*I_T2_AV_rect+I_T2_RMS_rect^2*R_dson+E_SW_FET*f_sw*I_in_pk/pi/50*Udc/2/300
+% % t_T2_JH_rect    =   P_T2_rect*(ZTHJH+RTHJH);
+% % 
 % % % Fojtó méretezés----------------------------------------------------------
 % % 
 % % f0              =   1e3;                          % A szûrõ sajátfrekvenciája üresjárásban
