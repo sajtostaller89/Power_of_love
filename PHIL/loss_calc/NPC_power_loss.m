@@ -68,7 +68,7 @@ t_D5_JH     =   P_D5*(ZTHDJH+RTHDJH);               % Hûtõtönkhöz képesti túlhõm
 
 disp('Modul disszipáció:');
 % Egész modul vesztesége
-P_SUM_modul =   2*(P_T1+P_T2+P_D5)
+P_SUM_modul =   2*(P_T1+P_T2+P_D5);
 
 % Egyenirányító üzemi számítások-----------------------------------------
 disp('EGYENIRÁNYÍTÓ üzem -----------------------------------------------');
