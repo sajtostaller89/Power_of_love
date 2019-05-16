@@ -61,13 +61,13 @@ P_T1_inv_pos   =   P_T1_sw+P_T1_cond                      % T1 disszipációja    
 t_T1_JH        =   P_T1_inv_pos*(ZTHJH+RTHJH)             % Hûtõtönkhöz képesti túlhõmérséklet
 
 % D5--------------------------
-I_D5_AV     =   I_T2_AV-I_T1_AV;                    %ellenütem miatt
+I_D5_AV        =   I_T2_AV-I_T1_AV;                    %ellenütem miatt
 %i_D5_AVell=I_in_pk/(2*pi)*(2-U_in_pk/Udc*pi);
 % Integrálással kihozható I_T1_RMS=I_in_pk*sqrt(U_in_pk/Udc/pi*4/3);
-I_D5_RMS    =   I_in_pk*sqrt(1/2/pi*(pi/2-2*U_in_pk/Udc*4/3));
+I_D5_RMS       =   I_in_pk*sqrt(1/2/pi*(pi/2-2*U_in_pk/Udc*4/3));
 % Van vezetési és kapcsolási veszteség is
-P_D5_inv_pos        =   U0_DIODE*I_D5_AV+I_D5_RMS^2*R_DIODE+E_SW_DIODE*f_sw*I_T1_AV/50*Udc/2/300
-t_D5_JH     =   P_D5_inv_pos*(ZTHDJH+RTHDJH);               % Hûtõtönkhöz képesti túlhõmérséklet
+P_D5_inv_pos   =   U0_DIODE*I_D5_AV+I_D5_RMS^2*R_DIODE+E_SW_DIODE*f_sw*I_T1_AV/50*Udc/2/300
+t_D5_JH        =   P_D5_inv_pos*(ZTHDJH+RTHDJH);               % Hûtõtönkhöz képesti túlhõmérséklet
 
 % disp('Modul disszipáció:');
 % % Egész modul vesztesége
