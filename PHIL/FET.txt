@@ -1,0 +1,10 @@
+1,2kv search:
+https://hu.farnell.com/w/c/semiconductors-discretes/transistors/mosfet-transistors/single-mosfet-transistors/prl/results?drain-source-voltage-vds=900v|950v|1kv|1.05kv|1.2kv&on-resistance-rds-on-=0.022ohm|0.025ohm|0.03ohm|0.04ohm|0.052ohm|0.065ohm|0.075ohm|0.08ohm|0.088ohm&sort=P_PRICE&pageSize=50
+
+
+600V search:
+https://hu.farnell.com/w/c/semiconductors-discretes/transistors/mosfet-transistors/single-mosfet-transistors/prl/results?transistor-polarity=n-channel&continuous-drain-current-id=6a|6.1a|6.2a|6.5a|6.6a|6.7a|6.8a|6.9a|7a|7.2a|7.3a|7.4a|7.5a|7.8a|7.9a|8a|8.3a|8.5a|8.6a|8.7a|9a|9.2a|9.5a|10a|10.1a|10.5a|10.6a|10.8a|11a|11.4a|11.5a|12a|12.5a|12.6a|13a|13.4a|13.8a|14a|15a|15.1a|16a|16.1a|16.4a|16.7a|17a|17.5a|18a|18.5a|19a|19.5a|19.8a|20a|20.2a|20.3a|20.7a|21a|21.7a|22a|22.4a|23a|24a|24.3a|25a|26a|27a|28a|29a|30a|30.8a|31a|31.2a|31.6a|32a|32.4a|33a|34a|34.6a|35a|36a|37.9a|38a|39a|40a|42a|43.3a|44a|46a|47a|48a|49a|52a|53.5a|54a|55a|57.7a|58a|60a|62a|63a|63.3a|65a|68.5a|69a|70a|72a|73a|75a|76a|80a|83.2a|84a|87a|88a|90a&drain-source-voltage-vds=600v|650v|700v|800v&on-resistance-rds-on-=0.017ohm|0.0195ohm|0.0215ohm|0.023ohm|0.024ohm|0.025ohm|0.029ohm|0.03ohm|0.032ohm|0.033ohm|0.0338ohm|0.0354ohm|0.036ohm|0.037ohm|0.038ohm|0.04ohm|0.041ohm|0.042ohm|0.043ohm|0.049ohm|0.05ohm|0.052ohm|0.054ohm|0.056ohm|0.058ohm|0.059ohm|0.06ohm|0.061ohm|0.062ohm|0.063ohm|0.064ohm|0.065ohm|0.067ohm|0.068ohm|0.069ohm|0.07ohm|0.072ohm|0.073ohm|0.075ohm|0.078ohm|0.079ohm|0.08ohm|0.081ohm|0.084ohm|0.087ohm|0.088ohm|0.089ohm|0.09ohm&product-range=na&sort=P_PRICE
+
+600V compare:
+https://hu.farnell.com/webapp/wcs/stores/servlet/CompareProductsDisplay?catalogId=15001&langId=36&storeId=10162&catentryId=112172415,65017790,68227748,177456082&pageType=PLP
+
